@@ -15,3 +15,32 @@ Python is a high-level, interpreted programming language known for its readabili
 - Large Community: Python has a vast and active community that contributes to its development and provides support to its users.
 ## Basic Syntax
 print("Hello, World!")
+## Variables and Data Types
+- String
+name = "Alice"
+- Integer
+age = 25
+- Float
+height = 5.9
+- Boolean
+is_student = True
+## Conditional Statements
+if age > 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+## Loops
+- For loop
+for i in range(5):
+    print(i)
+
+- While loop
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+## Functions
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Bob"))
